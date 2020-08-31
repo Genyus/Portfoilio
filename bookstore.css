@@ -1,0 +1,57 @@
+/* use varibles*/
+body {
+  background-color: orange;
+}
+
+.w3-center {
+  text-align: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.searchBar form {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.searchBar input[type=text] {
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #000;
+  font-size: 1.3em;
+  border: 2px solid #9e9e9e;
+  width: 80%;
+  margin-right: 5px;
+}
+
+.bookimage {
+  width: 13vw;
+  height: 22vh;
+}
+
+.header h1,
+.header .breadcrumb {
+  text-align: center;
+}
+
+.book {
+  border-bottom: 1px solid grey;
+}
+
+.book .addbtn,
+.searchBar input[type=submit] {
+  --padding: 8px 10px;
+  --border-radius: 5px;
+  --min-width: 80px;
+  --float: center;
+  --font-size: 1.1em;
+}
+
+.book .addbtn {
+  background-color: #4f95ff;
+}
+/*# sourceMappingURL=bookstore.css.map */
